@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Yuki\Desktop\studia\django\frontend\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Users\Yuki\Documents\it\fryzjer_projekt\frontend\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -920,10 +920,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 class SharedService {
-    // readonly APIUrl = 'http://127.0.0.1:8000';
     constructor(http) {
         this.http = http;
-        this.APIUrl = 'https://fryzjerprojekt.herokuapp.com';
+        // readonly APIUrl = 'https://fryzjerprojekt.herokuapp.com';
+        this.APIUrl = 'http://127.0.0.1:8000';
     }
     registerLogin(x) { return this.http.post(this.APIUrl + '/registerlogin', x); }
     register(y) { return this.http.post(this.APIUrl + '/register', y); }

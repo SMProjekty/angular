@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Yuki\Desktop\studia\django\frontend\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\Yuki\Documents\it\fryzjer_projekt\frontend\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
